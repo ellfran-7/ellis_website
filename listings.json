@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/first-post/index.html",
+      "/blog/second-post/index.html",
+      "/blog/third-post/index.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": []
   }
