@@ -1,7 +1,6 @@
 ---
 title: "Ellis Franklin"
 subtitle: "PhD Student | Bioinformatics"
-# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
 image: profile-me.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
@@ -13,15 +12,16 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.social/@elfrank
+    - icon: twitter-x
+      text: X (formely Twitter)
+      href: https://x.com/elffran7
+    - icon: pc-display
+      text: Lab
+      href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
 ---
-
 
 {{< lipsum 1 >}}
 
-## Education
-
-University of XYZ, City \| Location \| Sept 20XX - June 20XX
-
-## Experience
-
-Workplace \| Job title \| April 20XX - present
