@@ -6,9 +6,15 @@ website:
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "Made with ❤️ and Quarto"
   navbar:
+    title: Home 
     right:
-      - text: Home
-        href: index.qmd
+      - text: Talks
+        href: talks.qmd
+        icon: megaphone
+    tools:
+      - icon: github
+        href: https://github.com/ellfran-7
+        
       
 format:
   html:
