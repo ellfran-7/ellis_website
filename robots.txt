@@ -1,1 +1,1 @@
-Sitemap: https://ellfran-7.github.io/ellis_website/sitemap.xml
+Sitemap: https://ellisfranklin.com/sitemap.xml
