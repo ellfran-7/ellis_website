@@ -4,38 +4,55 @@
 // https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 
 /* Whe importing fonts from google fonts, importe using "@import", copy and paste the embeded code for html. Remove the "<style>" divs*/ 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-$theme-white: #f2f9f9;
-$theme-teal: #048c7f;
-$theme-darkteal: #025043;
+// Base color variables // (thanks Jadey Ryan ! https://github.com/jadeynryan/jadey_website/blob/main/assets/styling/theme.scss)
+$white:  #fff;
+$gray-0: #f9f9f9;
+$gray-1: #eceeee;
+$gray-2: #dfe1e1;
+$gray-3: #d0d4d3;
+$gray-4: #c0c5c4;
+$gray-5: #aeb4b3;
+$gray-6: #99a1a0;
+$gray-7: #818b8a;
+$gray-8: #626f6d;
+$gray-9: #334240;
+$black:  #000;
 
-/* Colors */
+// Theme color variables // -----
+$theme-white: #ffffff;
+$theme-teal: #28557a;
+$theme-pink: #a148d1;
 
-/* $body-bg: #FFFFFF;
-$body-color: rgb(55, 58, 60);
-$link-color: rgb(39, 128, 227); */
 
+// Coloring // -----
 $body-bg: $theme-white;
 $body-color: $theme-teal;
-$link-color: $theme-darkteal;
+$link-color: $theme-pink;
 
 
-
-/* Fonts */
+// Fonts // -----
 $font-family-sans-serif: "Nunito", sans-serif;
-$font-size-root: 17px;
+$font-size-root: 10px;
+
 
 /*--- scss:rules --*/
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
   color: $theme-teal;
 }
 
-/* By add * (means "everything under") to the variable .navbar, we apply the attribute to all children elements within the navbar class */
+// navbar // -----
+
+// By add * (means "everything under") to the variable .navbar, we apply the attribute to all children elements within the navbar class //
 .navbar * { 
   color: $theme-teal;
+}
+
+// Put all the icons in a single row in the hamburger menu 
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
 }
 
 /* This element of scss code modifies only the span.navbar-titlte (to find this Inspect the compiled html page and hover to find the text to modify. In this case we perform a nested rule where we want the color to change in 0.5s to a lighter $theme-teal when hovering with the mouse) */
@@ -49,3 +66,50 @@ span.navbar-title {
   }
 }
 
+.navbar-title {
+  font-weight: 700;
+}
+
+
+// code //
+
+code {
+  font-family: Fira mono, monospace;
+}
+
+
+@media screen and (max-width: 991.98px) {
+
+// make nice footer rows
+// from Silvia's blog source code: https://github.com/spcanelon/silvia/blob/main/assets/silvia-theme.scss
+
+  .nav-footer {
+      flex-direction: row;
+    }
+
+  .nav-footer-center {
+    order: 3 !important;
+    flex-basis: 100%;
+    margin-top: -0.5em;
+  }
+
+  .nav-footer-right {
+    order: 2 !important;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .nav-footer-left {
+    order: 1 !important;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .navbar .quarto-navbar-tools {
+    text-align: left;
+  }
+
+  div.cookie-consent-footer {
+    margin-top: -0.5em;
+  }
+}
