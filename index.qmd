@@ -15,6 +15,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
 ---
 
+
 {{< lipsum 1 >}}
 
 ## Education
