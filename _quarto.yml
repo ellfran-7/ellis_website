@@ -11,6 +11,8 @@ website:
       - text: Talks
         href: talks.qmd
         icon: megaphone
+      - text: Blog
+        href: blog/index.qmd
     tools:
       - icon: github
         href: https://github.com/ellfran-7
@@ -25,5 +27,7 @@ format:
     # max-width: ... # width of the main text area of the pages
     # fontsize: 20px # base font size for website
     # linestretch: ... # distance between lines ofd text
+    # mainfont: "monospace"
+    fontsize: 20px
     theme: [cosmo, styles.scss]
 
