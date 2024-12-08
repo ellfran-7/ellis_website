@@ -23,5 +23,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
 ---
 
+## Little bio 
+
 {{< lipsum 1 >}}
 
