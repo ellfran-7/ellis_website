@@ -3,31 +3,62 @@ project:
 
 website:
   title: "Home"
+  description: "Brewing up another R spell"
+  site-url: https://ellisfranklin.com
+  repo-url: https://github.com/ellfran-7/ellis_website
+  # repo-actions: 
+  #   - source
+  #   - issue
+  # twitter-card: 
+  #   creator: "@elffran7"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Made with ❤️ and Quarto"
+  # page-navigation: true
   navbar:
-    title: Home 
-    right:
-      - text: Talks
-        href: talks.qmd
-        icon: megaphone
-      - text: Blog
-        href: blog/index.qmd
+    title: Ellis FRANKLIN 
+    # logo:
+    # logo-alt:
+    # left: 
+    #   - ...
+    # right:
+    #   - text: Talks
+    #     href: talks.qmd
+    #     icon: megaphone
+    #   - text: Blog
+    #     href: blog/index.qmd
     tools:
       - icon: github
+        aria-label: GitHub
         href: https://github.com/ellfran-7
-        
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
+      - icon: mastodon
+        aria-label: Mastodon
+        href: https://mastodon.social/@elfrank
+      - icon: twitter-x
+        aria-label: X
+        href: https://x.com/elffran7
+  page-footer:
+    border: true
+    left: "&#169; 2024 Ellis FRANKLIN"
+    # center:
+    #   - text: Code of conduct
+    #     href: coc.qmd
+    #   - text: Accessibility
+    #     href: accessibility.qmd
+    #   - text: License
+    #     href: license.qmd
+    right: "Made with ❤️ and Quarto"
       
+  
 format:
   html:
-    # backgroundcolor: "#b3e0dc"
-    # fontcolor: "darkgreen"
-    # linkcolor: "black"
-    # mainfont: "sarif"
-    # max-width: ... # width of the main text area of the pages
-    # fontsize: 20px # base font size for website
-    # linestretch: ... # distance between lines ofd text
-    # mainfont: "monospace"
-    fontsize: 20px
+    fontsize: 15px
     theme: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 4
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-link: true
+    highlight-style: pygments
 
