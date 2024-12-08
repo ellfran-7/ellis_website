@@ -1,10 +1,10 @@
 ---
-title: "Ellis Franklin"
+title: "Ellis FRANKLIN"
 subtitle: "PhD Student | Bioinformatics"
 image: profile-me.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
-  image-shape: round
+  image-width: 75%
   links:
     - icon: github
       text: Github
@@ -20,10 +20,14 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://x.com/elffran7
     - icon: pc-display
       text: Lab
-      href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
+      href:  https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
 ---
 
-## Little bio 
+I'm a PhD student at the [Université de Lorraine](https://www.univ-lorraine.fr/), focusing on the bioinformatic side of ecotoxicology.
 
-{{< lipsum 1 >}}
+My research centers on improving transcriptomics data analysis in dose-response and time-dose-response frameworks, with the goal of creating reproducible, accessible, and tailored tools for the (eco)toxicology community. These tools aim to enhance hypothesis generation and experimental planning.
+
+I conduct my research between the [Laboratoire Interdisciplinaire des Environnements (LIEC)](https://liec.univ-lorraine.fr/) in Metz and the [Laboratoire de Biométrie et Biologie Évolutive (LBBE)](https://lbbe-web.univ-lyon1.fr/fr) in Lyon.
+
+I'm passionate about creating ✨ magic ✨ with `R`, `Quarto` and other tools that promote **reproducible research**.
 
