@@ -1,0 +1,9 @@
+---
+title: Blog
+listing:
+# automatically generated list of content -> list of other content within the folder where this qmd file is found
+  contents: /
+  # choose from where this listing is performed ("/" is the same as "listing: default")
+  type: grid
+
+---
