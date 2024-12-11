@@ -14,7 +14,7 @@ A special thanks to :
 
 — for their amazing websites and repositories, which inspired and helped me beautify my own site.
 
-#### Futur plans
+### Futur plans
 
 This is just the beginning! As I continue to grow and learn, I plan to expand and improve this website, by adding more features and refining its design.
 
