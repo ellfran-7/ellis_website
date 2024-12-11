@@ -8,9 +8,9 @@ This website would not have seen the light of day without the guidance, tips, an
 
 A special thanks to :
 
--   Jadey Ryan [<i class="bi bi-github"></i>](https://github.com/jadeynryan/jadey_website)
--   Mike Mahoney [<i class="bi bi-github"></i>](https://github.com/mikemahoney218/mm218.dev)
--   Andrew Heiss [<i class="bi bi-github"></i>](https://github.com/andrewheiss/ath-quarto)
+-   [Jadey Ryan](https://jadeyryan.com/) ([repo](https://github.com/jadeynryan/jadey_website))
+-   [Mike Mahoney](https://www.mm218.dev/) ([repo](https://github.com/mikemahoney218/mm218.dev))
+-   [Andrew Heiss](https://www.andrewheiss.com/) ([repo](https://github.com/andrewheiss/ath-quarto))
 
 — for their amazing websites and repositories, which inspired and helped me beautify my own site.
 
