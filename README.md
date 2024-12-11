@@ -1,4 +1,4 @@
-### 🧙 Hello ! 
+### 🧙 Hello !
 
 Welcome to the repository of my personal website! This site was crafted using [Quarto](https://quarto.org/) and is hosted on [GitHub Pages](https://pages.github.com/). I hope you find it inspiring, and that the source code here helps you brew up your own amazing website.
 
@@ -14,7 +14,7 @@ A special thanks to :
 
 — for their amazing websites and repositories, which inspired and helped me beautify my own site.
 
-#### Futur plans 
+#### Futur plans
 
 This is just the beginning! As I continue to grow and learn, I plan to expand and improve this website, by adding more features and refining its design.
 
