@@ -18,9 +18,9 @@ A special thanks to :
 
 This is just the beginning! As I continue to grow and learn, I plan to expand and improve this website, by adding more features and refining its design.
 
-### License
+### Licenses
 
-This repository is shared under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are welcome to adapt and use the code, aslong as you provide the appropriate credit.
+The content of this project itself is licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://choosealicense.com/licenses/cc-by-sa-4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/ellfran-7/ellis_website/blob/main/LICENSE). You are welcome to adapt and use the code, aslong as you provide the appropriate credit.
 
 ------------------------------------------------------------------------
 
