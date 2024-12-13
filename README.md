@@ -20,7 +20,7 @@ This is just the beginning! As I continue to grow and learn, I plan to expand an
 
 ### Licenses
 
-The content of this project itself is licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://choosealicense.com/licenses/cc-by-sa-4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/ellfran-7/ellis_website/blob/main/LICENSE). You are welcome to adapt and use the code, aslong as you provide the appropriate credit.
+The content of this project itself is licensed under the [CC-BY-SA-4.0 license](https://choosealicense.com/licenses/cc-by-sa-4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/ellfran-7/ellis_website/blob/main/LICENSE). You are welcome to adapt and use the code, aslong as you provide the appropriate credit.
 
 ------------------------------------------------------------------------
 
