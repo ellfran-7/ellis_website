@@ -20,7 +20,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://x.com/elffran7
     - icon: pc-display
       text: Lab
-      href:  https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
+      href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
 ---
 
 I'm a PhD student at the [Université de Lorraine](https://www.univ-lorraine.fr/), focusing on the bioinformatic side of ecotoxicology.
