@@ -6,19 +6,6 @@
 /* Whe importing fonts from google fonts, importe using "@import", copy and paste the embeded code for html. Remove the "<style>" divs*/ 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-// Base color variables // (thanks Jadey Ryan ! https://github.com/jadeynryan/jadey_website/blob/main/assets/styling/theme.scss)
-$white:  #fff;
-$gray-0: #f9f9f9;
-$gray-1: #eceeee;
-$gray-2: #dfe1e1;
-$gray-3: #d0d4d3;
-$gray-4: #c0c5c4;
-$gray-5: #aeb4b3;
-$gray-6: #99a1a0;
-$gray-7: #818b8a;
-$gray-8: #626f6d;
-$gray-9: #334240;
-$black:  #000;
 
 // Theme color variables // -----
 $theme-white: #ffffff;
@@ -55,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
 }
 
-/* This element of scss code modifies only the span.navbar-titlte (to find this Inspect the compiled html page and hover to find the text to modify. In this case we perform a nested rule where we want the color to change in 0.5s to a lighter $theme-teal when hovering with the mouse) */
+/* This element of scss code modifies only the span.navbar-title (to find this Inspect the compiled html page and hover to find the text to modify. In this case we perform a nested rule where we want the color to change in 0.5s to a lighter $theme-teal when hovering with the mouse) */
 span.navbar-title {
   color: $theme-teal;
   transition-duration: 0.5s;
