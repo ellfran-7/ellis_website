@@ -1,6 +1,6 @@
 ---
 title: "Ellis FRANKLIN"
-subtitle: "PhD Student | Bioinformatics"
+subtitle: "PhD Student | Bioinformatics | Ecotoxicology"
 image: profile-me.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
@@ -15,8 +15,10 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: mastodon
       text: Mastodon
       href: https://mastodon.social/@elfrank
+    - text: "{{< iconify simple-icons:bluesky >}} Bluesky"
+      href: https://bsky.app/profile/elfrank7.bsky.social
     - icon: twitter-x
-      text: X (formely Twitter)
+      text: X
       href: https://x.com/elffran7
     - icon: pc-display
       text: Lab
