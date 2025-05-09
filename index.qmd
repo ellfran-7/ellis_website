@@ -17,9 +17,6 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://mastodon.social/@elfrank
     - text: "{{< iconify simple-icons:bluesky >}} Bluesky"
       href: https://bsky.app/profile/elfrank7.bsky.social
-    - icon: twitter-x
-      text: X
-      href: https://x.com/elffran7
     - icon: pc-display
       text: Lab
       href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
