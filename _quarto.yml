@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - "CNAME"
 
 website:
   title: "Home"
@@ -35,9 +37,6 @@ website:
       - icon: mastodon
         aria-label: Mastodon
         href: https://mastodon.social/@elfrank
-      - icon: twitter-x
-        aria-label: X
-        href: https://x.com/elffran7
   page-footer:
     border: true
     left: "&#169; 2024 Ellis FRANKLIN"
