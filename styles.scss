@@ -9,7 +9,7 @@
 
 // Theme color variables // -----
 $theme-white: #ffffff;
-$theme-teal: #28557a;
+$theme-teal: #38605d;
 $theme-pink: #a148d1;
 
 
@@ -21,7 +21,8 @@ $link-color: $theme-pink;
 
 // Fonts // -----
 $font-family-sans-serif: "Nunito", sans-serif;
-$font-size-root: 10px;
+$font-size-root: 20px;
+
 
 
 /*--- scss:rules --*/
@@ -99,4 +100,33 @@ code {
   div.cookie-consent-footer {
     margin-top: -0.5em;
   }
+}
+
+
+/* Background color for navbar */
+.navbar {
+  background-color: $theme-teal !important;
+}
+
+/* All navbar text white */
+.navbar * {
+  color: $theme-white !important;
+}
+
+
+.quarto-about-trestles {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Keep everything top-aligned */
+.about-entity,
+.about-contents {
+  align-self: start;
+  margin-top: 0;
+}
+
+
+.custom-bullets ul {
+  list-style-type: "◦ ";
 }

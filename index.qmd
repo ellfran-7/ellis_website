@@ -1,32 +1,39 @@
 ---
 title: "Ellis FRANKLIN"
-subtitle: "PhD Student | Bioinformatics | Ecotoxicology"
+subtitle: "PhD Student<br>Bioinformatics in Ecotoxicology"
 image: profile-me.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
-  image-width: 75%
+  image-width: 70%
   links:
+    - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+      href: "mailto:ellis.franklin@univ-lorraine.fr"
     - icon: github
-      text: Github
+      # text: Github
       href: https://github.com/ellfran-7
     - icon: linkedin
-      text: LinkedIn
+      # text: LinkedIn
       href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
-    - icon: mastodon
-      text: Mastodon
-      href: https://mastodon.social/@elfrank
-    - text: "{{< iconify simple-icons:bluesky >}} Bluesky"
+    - text: "{{< iconify simple-icons:bluesky >}}"
       href: https://bsky.app/profile/elfrank7.bsky.social
     - icon: pc-display
       text: Lab
       href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
 ---
 
+:::: {.column-body-outset}
+
 I'm a PhD student at the [Université de Lorraine](https://www.univ-lorraine.fr/), focusing on the bioinformatic side of ecotoxicology.
 
 My research centers on improving transcriptomics data analysis in dose-response and time-dose-response frameworks, with the goal of creating reproducible, accessible, and tailored tools for the (eco)toxicology community. These tools aim to enhance hypothesis generation and experimental planning.
 
-I conduct my research between the [Laboratoire Interdisciplinaire des Environnements (LIEC)](https://liec.univ-lorraine.fr/) in Metz and the [Laboratoire de Biométrie et Biologie Évolutive (LBBE)](https://lbbe-web.univ-lyon1.fr/fr) in Lyon.
+I conduct my research between two labs:
+
+::: {.custom-bullets}
+-  [Laboratoire Interdisciplinaire des Environnements (LIEC)](https://liec.univ-lorraine.fr/) in Metz
+-  [Laboratoire de Biométrie et Biologie Évolutive (LBBE)](https://lbbe-web.univ-lyon1.fr/fr) in Lyon.
+:::
 
 I'm passionate about creating ✨ magic ✨ with `R`, `Quarto` and other tools that promote **reproducible research**.
 
+::::

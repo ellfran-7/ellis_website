@@ -8,52 +8,43 @@ website:
   description: "Brewing up another R spell"
   site-url: https://ellisfranklin.com
   repo-url: https://github.com/ellfran-7/ellis_website
-  # repo-actions: 
-  #   - source
-  #   - issue
-  # twitter-card: 
-  #   creator: "@elffran7"
+  repo-actions: [edit, source, issue]
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  # page-navigation: true
   navbar:
-    title: Ellis FRANKLIN 
-    # logo:
-    # logo-alt:
-    # left: 
-    #   - ...
-    # right:
-    #   - text: Talks
-    #     href: talks.qmd
-    #     icon: megaphone
-    #   - text: Blog
-    #     href: blog/index.qmd
-    tools:
-      - icon: github
-        aria-label: GitHub
+    title: Ellis FRANKLIN
+    right:
+      - text: Papers
+        href: papers/index.qmd
+        icon: journal-richtext
+      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+        href: "mailto:ellis.franklin@univ-lorraine.fr"
+      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/ellfran-7
-      - icon: linkedin
-        aria-label: LinkedIn
+      - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}" 
         href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
-      - icon: mastodon
-        aria-label: Mastodon
-        href: https://mastodon.social/@elfrank
+      - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+        href: https://bsky.app/profile/elfrank7.bsky.social
+
+  back-to-top-navigation: true
   page-footer:
     border: true
-    left: "&#169; 2025 Ellis FRANKLIN"
-    # center:
-    #   - text: Code of conduct
-    #     href: coc.qmd
-    #   - text: Accessibility
-    #     href: accessibility.qmd
-    #   - text: License
-    #     href: license.qmd
+    left: "&#169; 2025 Ellis FRANKLIN.<br><small>Content licensed under [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br>
+    Code licensed under [**MIT License**](LICENSE)
+.</small>"
+    center:
+      # - text: Code of conduct
+      #   href: coc.qmd
+      # - text: Accessibility
+      #   href: accessibility.qmd
+      - text: License
+        href: license.qmd
     right: "Made with ❤️ and Quarto"
       
   
 format:
   html:
-    fontsize: 15px
-    theme: [cosmo, styles.scss]
+    # fontsize: 20px
+    theme: styles.scss
     toc: true
     toc-depth: 4
     smooth-scroll: true
