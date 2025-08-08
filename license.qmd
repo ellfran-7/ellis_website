@@ -1,0 +1,29 @@
+---
+title: "License"
+---
+
+## License and Usage
+
+### Website Code
+
+The source code for this website is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute the code with no restrictions, provided you include the original copyright notice and this license.
+
+---
+
+### Website Content
+
+The content of this website, including text, images, and media, is licensed under the  
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format  
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+- **NonCommercial** — You may not use the material for commercial purposes.  
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+For more details, visit the [license page](https://creativecommons.org/licenses/by-nc-sa/4.0/).
