@@ -15,7 +15,7 @@ listing:
       author-short-with-tooltip: Authors
       image: Graphic
     image-height: 100px
-    table-hover: false
+    # table-hover: false
 page-layout: article
 format: 
   html: 

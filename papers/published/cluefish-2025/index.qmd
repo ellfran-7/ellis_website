@@ -1,6 +1,6 @@
 ---
 title: "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge"
-date: "30/07/25"
+date: "2025-07-30"
 author:
   - name: Ellis Franklin
     url: https://ellfranklin.com/
