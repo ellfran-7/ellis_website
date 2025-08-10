@@ -1,0 +1,147 @@
+```{=html}
+<div class="research project-list">
+<ul class="list">
+    <% for (const item of items) { %>
+        <li class="project" <%=metadataAttrs(item) %>>
+            <div class="project-content listing-pub-info">
+                <% if (item['pub-info'] && item['pub-info'].reference) { %>
+                    <p><%= item['pub-info'].reference %></p>
+                <% } else { %>
+                    <p>
+                        <% if (item.author && Array.isArray(item.author)) { %>
+                            <% item.author.forEach((auth, index) => { %>
+                                <% if (auth.name === "Ellis Franklin") { %>
+                                    <% if (auth.url) { %>
+                                        <a href="<%- auth.url %>"><strong><%- auth.name %></strong></a>
+                                    <% } else { %>
+                                        <strong><%- auth.name %></strong>
+                                    <% } %>
+                                <% } else { %>
+                                    <% if (auth.url) { %>
+                                        <a href="<%- auth.url %>"><%- auth.name %></a>
+                                    <% } else { %>
+                                        <%- auth.name || auth %>
+                                    <% } %>
+                                <% } %>
+                                <% if (index < item.author.length - 1) { %>, <% } %>
+                            <% }) %>
+                        <% } %>
+                        , "<%- item.title %>," 
+                        <em>Journal Name</em>
+                        <% if (item.date) { %> (<%- item.date %>)<% } %>
+                    </p>
+                <% } %>
+            </div>
+            
+            <% if(item.categories) { %>
+            <div class="project-categories">
+                <% for (const cat of item.categories) { %>
+                    <span class="project-category"><%- cat %></span>
+                <% } %>
+            </div>
+            <% } %>
+            
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="<%- item.path %>">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <% if (item['pub-info'] && item['pub-info'].links) { %>
+                        <% for (const link of item['pub-info'].links) { %>
+                    <li class="project-link">
+                        <% if (link.local) { %>
+                        <a href="<%- item.path.substring(0, item.path.lastIndexOf('/')) %>/<%- link.url %>">
+                        <% } else { %>
+                        <a href="<%- link.url %>">
+                        <% } %>
+                            <i class="<%- link.icon %>"></i> <%= link.name %>
+                        </a>
+                    </li>
+                        <% } %>
+                    <% } %>
+                </ul>
+            </div>
+        </li>
+        <% } %>
+</ul>
+</div>
+
+<style>
+.research.project-list {
+    font-size: 0.9rem;
+}
+
+.research.project-list .project-content p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.research.project-list .project-categories {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.research.project-list .project-category {
+    display: inline;
+    margin-right: 0.75rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.research.project-list .project-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.research.project-list .project-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.research.project-list .project-link.details a {
+    background: #dc2626;
+    color: white;
+    border: 1px solid #dc2626;
+}
+
+.research.project-list .project-link.details a:hover {
+    background: #b91c1c;
+    border-color: #b91c1c;
+}
+
+.research.project-list .project-link:not(.details) a {
+    background: #f3f4f6;
+    color: #374151;
+    border: 1px solid #d1d5db;
+}
+
+.research.project-list .project-link:not(.details) a:hover {
+    background: #e5e7eb;
+    border-color: #9ca3af;
+}
+
+.research.project-list .project {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.research.project-list .project:last-child {
+    border-bottom: none;
+}
+</style>
+```

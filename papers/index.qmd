@@ -1,0 +1,59 @@
+---
+title: "Papers"
+listing:
+  - id: published
+    contents: "published/*/index.qmd"
+    sort: "date desc"
+    type: table
+    categories: false
+    sort-ui: [date, title, author-short-with-tooltip, journal-title]
+    filter-ui: [date, title, author-short-with-tooltip, journal-title]
+    fields: [date, title, author-short-with-tooltip, journal-title, image]
+    field-display-names:
+      date: Issued
+      journal-title: Journal
+      author-short-with-tooltip: Authors
+      image: Graphic
+    image-height: 100px
+    table-hover: false
+page-layout: article
+format: 
+  html: 
+    grid: 
+      sidebar-width: 500px
+      body-width: 1400px
+      margin-width: 300px
+toc-location: right
+---
+
+<!-- Adding styling to homogenise the grids -->
+<!-- As it is only short codes (and few) it doesn't need to be in a separate file for now -->
+
+<style>
+#published table {
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+#published td:nth-child(1), #published th:nth-child(1) { /* Date column */
+  width: 10%;
+}
+
+#published td:nth-child(3), #published th:nth-child(3) { /* Authors column */
+  width: 10%;
+}
+
+#published th {
+  font-size: 0.8rem;
+}
+
+#published td {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.5rem;
+}
+</style>
+
+## Published
+
+:::{#published}
+:::

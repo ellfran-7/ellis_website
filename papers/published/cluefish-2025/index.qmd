@@ -1,0 +1,82 @@
+---
+title: "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge"
+date: "30/07/25"
+author:
+  - name: Ellis Franklin
+    url: https://ellfranklin.com/
+    orcid: https://orcid.org/0000-0002-6614-4109
+    affiliation: Université de Lorraine
+  - name: Elise Billoir
+    url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.liec.univ-lorraine.fr/presentation/membres/billoir-elise
+    orcid: https://orcid.org/0000-0001-9012-3298
+    affiliation: Université de Lorraine
+  - name: Philippe Veber
+    url: https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/veber-philippe
+    orcid: https://orcid.org/0000-0003-0328-0143
+    affiliation: Université Claude Bernard Lyon 1
+  - name: Jérémie Ohanessian
+    url: https://liec.univ-lorraine.fr/presentation/membres/ohanessian-jeremie
+    orcid: https://orcid.org/0009-0007-3909-3477
+    affiliation: Université de Lorraine
+  - name: Marie Laure Delignette-Muller
+    url: https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/delignette-muller-marie-laure
+    orcid: https://orcid.org/0000-0001-5453-3994
+    affiliation: Université Claude Bernard Lyon 1
+  - name: Sophie Martine Prud'homme
+    url: https://www.liec.univ-lorraine.fr/presentation/membres/prudhomme-sophie
+    orcid: https://orcid.org/0000-0002-7199-1839
+author-short-with-tooltip: "<span title=\"Ellis Franklin, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud'homme\">Franklin et al.</span>"
+journal-title: "NAR Genomics and Bioinformatics"
+# categories: 
+#   - ecotoxicology
+#   - transcriptomics
+#   - functional enrichment
+#   - R
+pub-info:
+  reference: >-
+    <a href="https://ellfranklin.com/" strong>Ellis Franklin</a /strong>, <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.liec.univ-lorraine.fr/presentation/membres/billoir-elise">Elise Billoir</a>, <a href="https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/veber-philippe">Philippe Veber</a>, <a href="https://liec.univ-lorraine.fr/presentation/membres/ohanessian-jeremie">Jérémie Ohanessian</a>, <a href="https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/delignette-muller-marie-laure">Marie Laure Delignette-Muller</a>, and <a href="https://www.liec.univ-lorraine.fr/presentation/membres/prudhomme-sophie">Sophie Martine Prud'homme</a>, “Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge”, <em>NAR Genomics and Bioinformatics</em> (2025), doi: <a href="https://doi.org/10.1093/nargab/lqaf103"><code>10.1093/nargab/lqaf103</code></a>
+image: "graphical-abstract.png"
+---
+
+## Important links
+
+- [Paper (preprint)](https://www.biorxiv.org/content/10.1101/2024.12.18.627334v2)
+- [GitHub repository](https://github.com/ellfran-7/cluefish)
+- [Vignette](https://ellfran-7.github.io/cluefish/articles/cluefish.html)
+
+
+## Abstract
+
+Interpreting transcriptomic data presents significant challenges, particularly in non-targeted approaches. While modern functional enrichment methods are well-suited for experimental designs involving two conditions, they are less applicable to data series. In this context, we developed Cluefish, a free and open-source, semi-automated R workflow designed for untargeted, comprehensive biological interpretation of transcriptomic data series. Cluefish applies over-representation analysis on pre-clustered protein–protein interaction networks, using clusters as anchors to identify smaller, more specific biological functions. Innovative features, including cluster merging and recovery of isolated genes through shared biological contexts, enable a more complete exploration of the data. We applied Cluefish to an in-house dataset with zebrafish exposed to a dose-gradient of dibutyl phthalate and to two published toxicology datasets featuring different organisms. Combined with DRomics, a tool for dose–response analysis—Cluefish identified gene clusters deregulated at low doses and linked to biological functions overlooked by the standard approach. Notably, it revealed that retinoid signaling disruption may be the most sensitive pathway affected by dibutyl phthalate during zebrafish development, potentially leading to morphological changes. The Cluefish workflow aims to provide valuable clues for biological hypothesis generation and experimental validation. It is freely available at [https://github.com/ellfran-7/cluefish](https://github.com/ellfran-7/cluefish).
+
+
+## The workflow
+
+![Figure 1: Schematic of Cluefish workflow](cluefish-fig-1.jpg)
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+  <a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1093/nargab/lqaf103">
+    {{< iconify mdi:book >}}&nbsp;Add to Zotero
+  </a>
+</p>
+
+```bibtex
+@article{10.1093/nargab/lqaf103,
+    author = {Franklin, Ellis and Billoir, Elise and Veber, Philippe and Ohanessian, Jérémie and Delignette-Muller, Marie Laure and Prud’homme, Sophie Martine},
+    title = {Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge},
+    journal = {NAR Genomics and Bioinformatics},
+    volume = {7},
+    number = {3},
+    pages = {lqaf103},
+    year = {2025},
+    month = {07},
+    abstract = {Interpreting transcriptomic data presents significant challenges, particularly in non-targeted approaches. While modern functional enrichment methods are well-suited for experimental designs involving two conditions, they are less applicable to data series. In this context, we developed Cluefish, a free and open-source, semi-automated R workflow designed for untargeted, comprehensive biological interpretation of transcriptomic data series. Cluefish applies over-representation analysis on pre-clustered protein–protein interaction networks, using clusters as anchors to identify smaller, more specific biological functions. Innovative features, including cluster merging and recovery of isolated genes through shared biological contexts, enable a more complete exploration of the data. We applied Cluefish to an in-house dataset with zebrafish exposed to a dose-gradient of dibutyl phthalate and to two published toxicology datasets featuring different organisms. Combined with DRomics, a tool for dose–response analysis—Cluefish identified gene clusters deregulated at low doses and linked to biological functions overlooked by the standard approach. Notably, it revealed that retinoid signaling disruption may be the most sensitive pathway affected by dibutyl phthalate during zebrafish development, potentially leading to morphological changes. The Cluefish workflow aims to provide valuable clues for biological hypothesis generation and experimental validation. It is freely available at https://github.com/ellfran-7/cluefish.},
+    issn = {2631-9268},
+    doi = {10.1093/nargab/lqaf103},
+    url = {https://doi.org/10.1093/nargab/lqaf103},
+    eprint = {https://academic.oup.com/nargab/article-pdf/7/3/lqaf103/63893022/lqaf103.pdf},
+}
+```
