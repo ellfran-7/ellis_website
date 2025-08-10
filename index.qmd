@@ -16,9 +16,11 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://www.linkedin.com/in/ellis-franklin-6188831ba/
     - text: "{{< iconify simple-icons:bluesky >}}"
       href: https://bsky.app/profile/elfrank7.bsky.social
-    - icon: pc-display
-      text: Lab
+    - text: "{{< iconify material-symbols:lab-research-outline-rounded >}} Lab 1"
       href: https://liec.univ-lorraine.fr/presentation/membres/franklin-ellis
+    - icon: pc-display
+      text: Lab 2
+      href: https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/franklin-ellis
 ---
 
 :::: {.column-body-outset}
