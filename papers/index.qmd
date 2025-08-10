@@ -15,7 +15,6 @@ listing:
       author-short-with-tooltip: Authors
       image: Graphic
     image-height: 100px
-    # table-hover: false
 page-layout: article
 format: 
   html: 
@@ -30,30 +29,29 @@ toc-location: right
 <!-- As it is only short codes (and few) it doesn't need to be in a separate file for now -->
 
 <style>
-#published table {
+.quarto-listing table {
   font-size: 0.85rem;
   width: 100%;
 }
 
-#published td:nth-child(1), #published th:nth-child(1) { /* Date column */
+.quarto-listing td:nth-child(1), .quarto-listing th:nth-child(1) { /* Date column */
   width: 10%;
 }
 
-#published td:nth-child(3), #published th:nth-child(3) { /* Authors column */
+.quarto-listing td:nth-child(3), .quarto-listing th:nth-child(3) { /* Authors column */
   width: 10%;
 }
 
-#published th {
+.quarto-listing th {
   font-size: 0.8rem;
 }
 
-#published td {
+.quarto-listing td {
   font-size: 0.8rem;
   padding: 0.4rem 0.5rem;
 }
 </style>
 
-## Published
-
 :::{#published}
 :::
+
