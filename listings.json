@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/papers/index.html",
+    "items": [
+      "/papers/published/cluefish-2025/index.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/first-post/index.html",

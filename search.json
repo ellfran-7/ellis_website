@@ -1,44 +1,107 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Duis urna urna, pellentesque eu urna ut, malesuada bibendum dolor. Suspendisse potenti. Vivamus ornare, arcu quis molestie ultrices, magna est accumsan augue, auctor vulputate erat quam quis neque. Nullam scelerisque odio vel ultricies facilisis. Ut porta arcu non magna sagittis lacinia. Cras ornare vulputate lectus a tristique. Pellentesque ac arcu congue, rhoncus mi id, dignissim ligula."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ellis FRANKLIN",
     "section": "",
-    "text": "I’m a PhD student at the Université de Lorraine, focusing on the bioinformatic side of ecotoxicology.\nMy research centers on improving transcriptomics data analysis in dose-response and time-dose-response frameworks, with the goal of creating reproducible, accessible, and tailored tools for the (eco)toxicology community. These tools aim to enhance hypothesis generation and experimental planning.\nI conduct my research between the Laboratoire Interdisciplinaire des Environnements (LIEC) in Metz and the Laboratoire de Biométrie et Biologie Évolutive (LBBE) in Lyon.\nI’m passionate about creating ✨ magic ✨ with R, Quarto and other tools that promote reproducible research."
+    "text": "I’m a PhD student at the Université de Lorraine, focusing on the bioinformatic side of ecotoxicology.\nMy research centers on improving transcriptomics data analysis in dose-response and time-dose-response frameworks, with the goal of creating reproducible, accessible, and tailored tools for the (eco)toxicology community. These tools aim to enhance hypothesis generation and experimental planning.\nI conduct my research between two labs:\n\n\nLaboratoire Interdisciplinaire des Environnements (LIEC) in Metz\nLaboratoire de Biométrie et Biologie Évolutive (LBBE) in Lyon.\n\n\nI’m passionate about creating ✨ magic ✨ with R, Quarto and other tools that promote reproducible research.\n\n\n\n Back to top"
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
     "section": "",
-    "text": "First Post\n\n\nPost description for first post\n\n\n\nAlicia\n\n\nMay 22, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\nPost description for second post\n\n\n\nAlicia\n\n\nMay 23, 2021\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Proin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor.\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/first-post/index.html",
     "href": "blog/first-post/index.html",
     "title": "First Post",
     "section": "",
-    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
+    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Issued - Oldest\n        \n         \n          Issued - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n         \n          Journal\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nIssued\n\n\nTitle\n\n\nAuthors\n\n\nJournal\n\n\nGraphic\n\n\n\n\n\n\nJun 7, 2027\n\n\nCluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge\n\n\nFranklin et al.\n\n\nNAR Genomics and Bioinformatics\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "papers/index.html#published",
+    "href": "papers/index.html#published",
+    "title": "Papers",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Issued - Oldest\n        \n         \n          Issued - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n         \n          Journal\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nIssued\n\n\nTitle\n\n\nAuthors\n\n\nJournal\n\n\nGraphic\n\n\n\n\n\n\nJun 7, 2027\n\n\nCluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge\n\n\nFranklin et al.\n\n\nNAR Genomics and Bioinformatics\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "The source code for this website is licensed under the MIT License.\nYou are free to use, modify, and distribute the code with no restrictions, provided you include the original copyright notice and this license.\n\n\n\n\nThe content of this website, including text, images, and media, is licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).\nYou are free to: - Share — copy and redistribute the material in any medium or format\n- Adapt — remix, transform, and build upon the material\nUnder the following terms: - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- NonCommercial — You may not use the material for commercial purposes.\n- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nFor more details, visit the license page."
+  },
+  {
+    "objectID": "license.html#license-and-usage",
+    "href": "license.html#license-and-usage",
+    "title": "License",
+    "section": "",
+    "text": "The source code for this website is licensed under the MIT License.\nYou are free to use, modify, and distribute the code with no restrictions, provided you include the original copyright notice and this license.\n\n\n\n\nThe content of this website, including text, images, and media, is licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).\nYou are free to: - Share — copy and redistribute the material in any medium or format\n- Adapt — remix, transform, and build upon the material\nUnder the following terms: - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- NonCommercial — You may not use the material for commercial purposes.\n- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nFor more details, visit the license page."
+  },
+  {
+    "objectID": "papers/published/cluefish-2025/index.html",
+    "href": "papers/published/cluefish-2025/index.html",
+    "title": "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository\nVignette"
+  },
+  {
+    "objectID": "papers/published/cluefish-2025/index.html#important-links",
+    "href": "papers/published/cluefish-2025/index.html#important-links",
+    "title": "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository\nVignette"
+  },
+  {
+    "objectID": "papers/published/cluefish-2025/index.html#abstract",
+    "href": "papers/published/cluefish-2025/index.html#abstract",
+    "title": "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge",
+    "section": "Abstract",
+    "text": "Abstract\nInterpreting transcriptomic data presents significant challenges, particularly in non-targeted approaches. While modern functional enrichment methods are well-suited for experimental designs involving two conditions, they are less applicable to data series. In this context, we developed Cluefish, a free and open-source, semi-automated R workflow designed for untargeted, comprehensive biological interpretation of transcriptomic data series. Cluefish applies over-representation analysis on pre-clustered protein–protein interaction networks, using clusters as anchors to identify smaller, more specific biological functions. Innovative features, including cluster merging and recovery of isolated genes through shared biological contexts, enable a more complete exploration of the data. We applied Cluefish to an in-house dataset with zebrafish exposed to a dose-gradient of dibutyl phthalate and to two published toxicology datasets featuring different organisms. Combined with DRomics, a tool for dose–response analysis—Cluefish identified gene clusters deregulated at low doses and linked to biological functions overlooked by the standard approach. Notably, it revealed that retinoid signaling disruption may be the most sensitive pathway affected by dibutyl phthalate during zebrafish development, potentially leading to morphological changes. The Cluefish workflow aims to provide valuable clues for biological hypothesis generation and experimental validation. It is freely available at https://github.com/ellfran-7/cluefish."
+  },
+  {
+    "objectID": "papers/published/cluefish-2025/index.html#the-workflow",
+    "href": "papers/published/cluefish-2025/index.html#the-workflow",
+    "title": "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge",
+    "section": "The workflow",
+    "text": "The workflow\n\n\n\nFigure 1: Schematic of Cluefish workflow"
+  },
+  {
+    "objectID": "papers/published/cluefish-2025/index.html#citation",
+    "href": "papers/published/cluefish-2025/index.html#citation",
+    "title": "Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge",
+    "section": "Citation",
+    "text": "Citation\n\n  Add to Zotero \n\n@article{10.1093/nargab/lqaf103,\n    author = {Franklin, Ellis and Billoir, Elise and Veber, Philippe and Ohanessian, Jérémie and Delignette-Muller, Marie Laure and Prud’homme, Sophie Martine},\n    title = {Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge},\n    journal = {NAR Genomics and Bioinformatics},\n    volume = {7},\n    number = {3},\n    pages = {lqaf103},\n    year = {2025},\n    month = {07},\n    abstract = {Interpreting transcriptomic data presents significant challenges, particularly in non-targeted approaches. While modern functional enrichment methods are well-suited for experimental designs involving two conditions, they are less applicable to data series. In this context, we developed Cluefish, a free and open-source, semi-automated R workflow designed for untargeted, comprehensive biological interpretation of transcriptomic data series. Cluefish applies over-representation analysis on pre-clustered protein–protein interaction networks, using clusters as anchors to identify smaller, more specific biological functions. Innovative features, including cluster merging and recovery of isolated genes through shared biological contexts, enable a more complete exploration of the data. We applied Cluefish to an in-house dataset with zebrafish exposed to a dose-gradient of dibutyl phthalate and to two published toxicology datasets featuring different organisms. Combined with DRomics, a tool for dose–response analysis—Cluefish identified gene clusters deregulated at low doses and linked to biological functions overlooked by the standard approach. Notably, it revealed that retinoid signaling disruption may be the most sensitive pathway affected by dibutyl phthalate during zebrafish development, potentially leading to morphological changes. The Cluefish workflow aims to provide valuable clues for biological hypothesis generation and experimental validation. It is freely available at https://github.com/ellfran-7/cluefish.},\n    issn = {2631-9268},\n    doi = {10.1093/nargab/lqaf103},\n    url = {https://doi.org/10.1093/nargab/lqaf103},\n    eprint = {https://academic.oup.com/nargab/article-pdf/7/3/lqaf103/63893022/lqaf103.pdf},\n}"
   },
   {
     "objectID": "blog/second-post/index.html",
     "href": "blog/second-post/index.html",
     "title": "Second Post",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "First Post\n\n\nPost description for first post\n\n\n\nAlicia\n\n\nMay 22, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\nPost description for second post\n\n\n\nAlicia\n\n\nMay 23, 2021\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Project\n        \n         \n          Description\n        \n         \n          Skills\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nProject\n\n\nDescription\n\n\nSkills\n\n\n\n\n\n\nPredicting House Prices with Machine Learning\n\n\nThis project involves using machine learning algorithms to predict house prices based on various features such as location, size, and amenities. It includes data cleaning, feature engineering, and model selection. \n\n\nPython, Machine Learning, Data Cleaning\n\n\n\n\nCustomer Segmentation Using Clustering Techniques\n\n\nThis project focuses on segmenting customers into different groups based on their purchasing behavior and demographics. It uses clustering algorithms like K-means and hierarchical clustering to identify distinct customer segments. \n\n\nR, Machine Learning, Clustering, Statistical Modelling\n\n\n\n\nVisualizing Global CO2 Emissions\n\n\nThis project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs. \n\n\nR, Data Visualization, Environmental Science\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Project\n        \n         \n          Description\n        \n         \n          Skills\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nProject\n\n\nDescription\n\n\nSkills\n\n\n\n\n\n\nPredicting House Prices with Machine Learning\n\n\nThis project involves using machine learning algorithms to predict house prices based on various features such as location, size, and amenities. It includes data cleaning, feature engineering, and model selection. \n\n\nPython, Machine Learning, Data Cleaning\n\n\n\n\nCustomer Segmentation Using Clustering Techniques\n\n\nThis project focuses on segmenting customers into different groups based on their purchasing behavior and demographics. It uses clustering algorithms like K-means and hierarchical clustering to identify distinct customer segments. \n\n\nR, Machine Learning, Clustering, Statistical Modelling\n\n\n\n\nVisualizing Global CO2 Emissions\n\n\nThis project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs. \n\n\nR, Data Visualization, Environmental Science\n\n\n\n\n\nNo matching items\n\n Back to top"
   }
 ]
