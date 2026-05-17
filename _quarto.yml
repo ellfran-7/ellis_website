@@ -16,6 +16,8 @@ website:
       - text: Papers
         href: papers/index.qmd
         icon: journal-richtext
+      - text: CV
+        href: cv.qmd
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:ellis.franklin@univ-lorraine.fr"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
