@@ -675,8 +675,8 @@ Whole week covering the full reproducible research stack: project organisation, 
 - Multivariate analyses, cluster analysis and trees
 
 ### Languages
-- **French:** Native
-- **English:** Fluent (professional --- writing, presenting, teaching)
+- **English:** Native
+- **French:** Fluent
 
 
 ---
@@ -717,7 +717,7 @@ Whole week covering the full reproducible research stack: project organisation, 
 #cv-entry(
   title: "Languages",
   description: [
-    *French:* Native · *English:* Fluent (professional — writing, presenting, teaching).
+    *English:* Native · *French:* Fluent.
   ]
 )
 #v(1em)
