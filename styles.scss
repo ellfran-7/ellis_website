@@ -1,55 +1,56 @@
 /*-- scss:defaults --*/
-
 // Sass Variables
 // https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 
-/* Whe importing fonts from google fonts, importe using "@import", copy and paste the embeded code for html. Remove the "<style>" divs*/ 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Import fonts from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+// === Forest Understory Theme ===
+// A naturalist-notebook palette: old-growth greens, warm cream, botanical violet
 
-// Theme color variables // -----
-$theme-white: #ffffff;
-$theme-teal: #38605d;
-$theme-pink: #a148d1;
+// Colour variables
+$theme-bg: #f5f2eb;   // warm cream —
+$theme-body: #2d5a45;   // deep forest green
+$theme-mid: #3f7a5f;   // canopy green
+$theme-fern: #6aab85;   // ferny highlight
+$theme-accent: #7b4fa6;   // botanical violet
+$theme-violet: #b89fd4;   // soft violet
+  
+// Quarto theme bindings
+$body-bg: $theme-bg;
+$body-color: $theme-body;
+$link-color: $theme-accent;
 
-// Coloring // -----
-$body-bg: $theme-white;
-$body-color: $theme-teal;
-$link-color: $theme-pink;
-
-
-// Fonts // -----
+// Fonts
 $font-family-sans-serif: "Nunito", sans-serif;
 $font-size-root: 20px;
 
-
-
-/*--- scss:rules --*/
-
-h1, h2, h3, h4, h5, h6 {
-  color: $theme-teal;
-}
-
-// navbar // -----
-
-// By add * (means "everything under") to the variable .navbar, we apply the attribute to all children elements within the navbar class //
-.navbar * { 
-  color: $theme-teal;
-}
-
-// Put all the icons in a single row in the hamburger menu 
-.navbar-nav.navbar-nav-scroll.ms-auto {
-    flex-direction: row;
-}
-
-/* This element of scss code modifies only the span.navbar-title (to find this Inspect the compiled html page and hover to find the text to modify. In this case we perform a nested rule where we want the color to change in 0.5s to a lighter $theme-teal when hovering with the mouse) */
-span.navbar-title {
-  color: $theme-teal;
-  transition-duration: 0.5s;
+/*-- scss:rules --*/
   
+// === Headings ===
+h1, h2, h3, h4, h5, h6 {
+  color: $theme-mid;
+}
+
+// === Navbar ===
+.navbar {
+  background-color: $theme-body !important;
+}
+
+// All navbar children: white text
+.navbar * {
+color: #f5f2eb !important;
+}
+
+// Brand title with hover fade to fern
+span.navbar-title {
+  color: #f5f2eb;
+  font-weight: 700;
+  transition-duration: 0.4s;
+
   &:hover {
-  color: lighten($theme-teal, 20%);
-  transition-duration: 0.5s;
+    color: $theme-fern;
+    transition-duration: 0.4s;
   }
 }
 
@@ -57,75 +58,107 @@ span.navbar-title {
   font-weight: 700;
 }
 
-
-// code //
-
-code {
-  font-family: Fira mono, monospace;
+// Keep icon-only nav links in a row in the collapsed hamburger menu
+.navbar-nav.navbar-nav-scroll.ms-auto {
+  flex-direction: row;
 }
 
+// === Links ===
+a {
+  color: $theme-accent;
+  transition: color 0.25s;
+  
+  &:hover {
+    color: lighten($theme-accent, 15%);
+  }
+}
 
+// === Code ===
+code {
+  font-family: "Fira Mono", monospace;
+  color: $theme-mid;
+  background-color: darken($theme-bg, 4%);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+// === Footer ===
 @media screen and (max-width: 991.98px) {
-
-// make nice footer rows
-// from Silvia's blog source code: https://github.com/spcanelon/silvia/blob/main/assets/silvia-theme.scss
-
+  // Responsive footer layout
+  // Adapted from Silvia Canelón's blog: https://github.com/spcanelon/silvia/blob/main/assets/silvia-theme.scss
   .nav-footer {
-      flex-direction: row;
-    }
-
+    flex-direction: row;
+  }
   .nav-footer-center {
     order: 3 !important;
     flex-basis: 100%;
     margin-top: -0.5em;
   }
-
   .nav-footer-right {
     order: 2 !important;
     flex-basis: 100%;
     text-align: center;
   }
-
   .nav-footer-left {
     order: 1 !important;
     flex-basis: 100%;
     text-align: center;
   }
-
   .navbar .quarto-navbar-tools {
     text-align: left;
   }
-
   div.cookie-consent-footer {
     margin-top: -0.5em;
   }
 }
 
-
-/* Background color for navbar */
-.navbar {
-  background-color: $theme-teal !important;
-}
-
-/* All navbar text white */
-.navbar * {
-  color: $theme-white !important;
-}
-
-
+// === About page (trestles layout) ===
 .quarto-about-trestles {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/* Keep everything top-aligned */
 .about-entity,
 .about-contents {
   align-self: start;
   margin-top: 0;
 }
 
-
+// === Custom bullet style ===
 .custom-bullets ul {
   list-style-type: "◦ ";
+}
+
+// === Callout / blockquote accent ===
+blockquote {
+  border-left: 3px solid $theme-fern;
+  padding-left: 1em;
+  color: $theme-mid;
+  font-style: italic;
+}
+
+// === Tag / badge chips (for papers page etc.) ===
+.tag, .badge {
+  background-color: lighten($theme-accent, 38%);
+  color: $theme-accent;
+  border-radius: 20px;
+  padding: 0.15em 0.75em;
+  font-size: 0.78em;
+  font-weight: 600;
+}
+
+// === Table of Contents ===
+#TOC {
+  border-left: 2px solid $theme-fern;
+  padding-left: 1em;
+
+  a {
+    color: $theme-mid;
+    &:hover { color: $theme-accent; }
+  }
+
+  .active > a {
+    color: $theme-accent;
+    font-weight: 700;
+  }
 }
