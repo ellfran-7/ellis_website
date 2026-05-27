@@ -9,10 +9,10 @@
 /* --- Colours ---*/
 
 $theme-white: #ffffff;
-$theme-teal: #38605d;
-$theme-pink: #a148d1;
-$theme-lighter-teal: lighten($theme-teal, 20%);
-$theme-lighter-pink: lighten($theme-pink, 20%);
+$theme-forest: #2d5a45;
+$theme-violet: #7b4fa6;
+$theme-lighter-teal: lighten($theme-forest, 20%);
+$theme-lighter-pink: lighten($theme-violet, 20%);
 
 
 
@@ -29,7 +29,7 @@ $theme-lighter-pink: lighten($theme-pink, 20%);
 .cvdate {
   float: right !important;
   font-style: italic !important;
-  color: $theme-teal !important;
+  color: $theme-forest !important;
   opacity: 0.75 !important;
 }
 
@@ -82,8 +82,8 @@ div.callout-note.callout-style-default .callout-title {
     font-weight: 800;
     font-size: 1.4em;
     text-transform: uppercase;
-    color: $theme-teal;
-    border-bottom: 2px solid $theme-teal;
+    color: $theme-forest;
+    border-bottom: 2px solid $theme-forest;
     padding-bottom: 0.2em;
     margin-top: 1.8em;
   }
@@ -91,7 +91,7 @@ div.callout-note.callout-style-default .callout-title {
   h3 {
     font-weight: 700;
     text-transform: uppercase;
-    color: $theme-teal;
+    color: $theme-forest;
     font-size: 1em;
     letter-spacing: 0.03em;
     margin-top: 1.2em;
@@ -109,19 +109,19 @@ div.callout-note.callout-style-default .callout-title {
   
   h4 {
     font-weight: 600;
-    color: $theme-teal;
+    color: $theme-forest;
     font-size: 1em;
   }
 
   /* Links match site accent */
   a {
-    color: $theme-pink;
+    color: $theme-violet;
     text-decoration: none;
     font-weight: 500;
   }
 
   a:hover {
-    color: $theme-teal;
+    color: $theme-forest;
     text-decoration: underline;
   }
 
@@ -190,7 +190,7 @@ div.callout-note.callout-style-default .callout-title {
     margin-top: 0;
     text-align: center;
     font-size: 10pt;
-    color: $theme-teal;
+    color: $theme-forest;
   }
 
   /* Base typography */
@@ -227,8 +227,8 @@ div.callout-note.callout-style-default .callout-title {
   h2 {
     font-weight: 900;
     text-transform: uppercase;
-    color: $theme-teal;
-    border-bottom: 1.5pt solid $theme-teal;
+    color: $theme-forest;
+    border-bottom: 1.5pt solid $theme-forest;
     padding-bottom: 2pt;
     margin-top: 14pt;
     margin-bottom: 6pt;
@@ -269,7 +269,7 @@ div.callout-note.callout-style-default .callout-title {
   a {
     text-decoration: none;
     font-weight: 600;
-    color: $theme-pink;
+    color: $theme-violet;
   }
 
   /* Suppress Quarto UI chrome in print */
