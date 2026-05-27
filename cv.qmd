@@ -39,6 +39,7 @@ execute:
 
 <br/>
 
+
 ## Education
 
 ::: {.content-visible when-format="html"}
@@ -644,8 +645,10 @@ Whole week covering the full reproducible research stack: project organisation, 
 
 ### Computational & Programming
 
-- **Languages:** R (advanced), Python (beginner–intermediate), Bash
-- **Reproducible research:** Quarto, R Markdown, `renv`, `targets`, Git · GitHub / GitLab / Codeberg
+- **Main languages:** R (advanced), Python (beginner–intermediate), Bash
+- **Reproducible research:** Quarto, R Markdown, `renv`, `targets`, Git · GitHub / GitLab / Codeberg; 
+  strong emphasis on end-to-end reproducibility --- from environment management to 
+  parameterised, version-controlled reports
 - **Web & documents:** HTML, CSS, Typst, Markdown
 - **Software development:** Developed [cluefish](https://github.com/ellfran-7/cluefish) --- an R workflow distributed as a structured, fully documented repository
 
@@ -663,6 +666,15 @@ Whole week covering the full reproducible research stack: project organisation, 
   (STRING, Cytoscape); PPIN clustering with multiple algorithms
 - **Data visualisation:** `ggplot2`, `patchwork`; interactive figures with `plotly`; 
   integrated into reproducible Quarto reports
+  
+### Biological Interpretation
+- **Functional knowledge:** Fluent in KEGG, GO, WikiPathways, and other sources of annotations; able to 
+  navigate and critically interpret enrichment outputs across biological levels 
+  (transcript to gene to protein to pathway to process)
+- **Mechanistic reasoning:** Experience deriving mechanistic hypotheses from omics 
+  perturbations --- e.g. impaired retinol metabolism under dibutyl phthalate exposure 
+  in zebrafish embryos, followed by morphological validation (eye size) (discussed in [Franklin et al., 2025](https://doi.org/10.1093/nargab/lqaf103) --- bridging 
+  molecular signatures to experimentally testable organism-level outcomes
 
 ### Statistics & Modelling
 
@@ -690,7 +702,7 @@ Whole week covering the full reproducible research stack: project organisation, 
 #cv-entry(
   title: "Computational & Programming",
   description: [
-    *Languages:* R (advanced), Python (beginner–intermediate), Bash \
+    *Main languages:* R (advanced), Python (beginner–intermediate), Bash \
     *Reproducible research:* Quarto, R Markdown, `renv`, `targets`, Git · GitHub / GitLab / Codeberg \
     *Web & documents:* HTML, CSS, Typst, Markdown \
     *Software development:* Developed #link("https://github.com/ellfran-7/cluefish")[cluefish] — a structured, fully documented R workflow.
@@ -707,6 +719,15 @@ Whole week covering the full reproducible research stack: project organisation, 
     *Data visualisation:* `ggplot2`, `patchwork`, `plotly` integrated in Quarto reports.
   ]
 )
+
+#cv-entry(
+  title: "Biological Interpretation",
+  description: [
+    *Functional knowledge:* Fluent in KEGG, GO, WikiPathways, and related annotation sources; able to navigate and critically interpret enrichment outputs across biological levels (transcript → gene → protein → pathway → process) \
+    *Mechanistic reasoning:* Experience deriving mechanistic hypotheses from omics perturbations --- e.g. impaired retinol metabolism under dibutyl phthalate exposure in zebrafish embryos, followed by morphological validation (eye size) (#link("https://doi.org/10.1093/nargab/lqaf103")[Franklin et al., 2025]) --- bridging molecular signatures to experimentally testable organism-level outcomes.
+  ]
+)
+
 #cv-entry(
   title: "Statistics & Modelling",
   description: [
