@@ -25,9 +25,12 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 :::: {.column-body-outset}
 
-I'm a PhD student at the [Université de Lorraine](https://www.univ-lorraine.fr/), focusing on the bioinformatic side of ecotoxicology.
+I'm a PhD student at the [Université de Lorraine](https://www.univ-lorraine.fr/), focusing on the bioinformatic and statistical side of ecotoxicology.
 
-My research centers on improving transcriptomics data analysis in dose-response and time-dose-response frameworks, with the goal of creating reproducible, accessible, and tailored tools for the (eco)toxicology community. These tools aim to enhance hypothesis generation and experimental planning.
+My research focuses on the analysis of transcriptomic data across dose and time gradients, 
+both separately and jointly --- developing approaches for the selection of deregulated 
+transcripts and biological interpretation of modelling results, with the goal of 
+building tools that are usable by anyone, regardless of bioinformatic background.
 
 I conduct my research between two labs:
 
@@ -36,6 +39,11 @@ I conduct my research between two labs:
 -  [Laboratoire de Biométrie et Biologie Évolutive (LBBE)](https://lbbe-web.univ-lyon1.fr/fr) in Lyon.
 :::
 
-I'm passionate about creating ✨ magic ✨ with `R`, `Quarto` and other tools that promote **reproducible research**.
+I care about **reproducible research** --- both in practice and through workshops + 
+seminars. I'm quite fond of data visualisation, not only the building of beautiful plots but also the message they convey. 
+I also illustrate my work, on paper and digitally.
 
+Outside the lab, I'm into hiking, prospecting for rocks and minerals, art and animation.
+
+Brewing ✨ magic ✨ with `R` and `Quarto`.
 ::::
