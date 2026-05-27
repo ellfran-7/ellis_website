@@ -675,8 +675,7 @@ Whole week covering the full reproducible research stack: project organisation, 
   (transcript to gene to protein to pathway to process)
 - **Mechanistic reasoning:** Experience deriving mechanistic hypotheses from omics 
   perturbations --- e.g. impaired retinol metabolism under dibutyl phthalate exposure 
-  in zebrafish embryos, followed by morphological validation (eye size) (discussed in [Franklin et al., 2025](https://doi.org/10.1093/nargab/lqaf103) --- bridging 
-  molecular signatures to experimentally testable organism-level outcomes
+  in zebrafish embryos, followed by morphological validation (eye size) (discussed in [Franklin et al., 2025](https://doi.org/10.1093/nargab/lqaf103)
 
 ### Statistics & Modelling
 
