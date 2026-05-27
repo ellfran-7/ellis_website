@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.36">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="dcterms.date" content="2026-05-17">
+<meta name="dcterms.date" content="2026-05-24">
 <title>Curriculum Vitae – Home</title>
 <style>
 code{white-space: pre-wrap;}
@@ -35,7 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-9b8c35769f744c2f4ed0637cc337dad3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-39d9e9ab372de6ae6494eff59a149256.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-44a4465febd959fd79ddcf324f6c53c7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
@@ -174,6 +174,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
 <li><a href="#computational-programming" id="toc-computational-programming" class="nav-link" data-scroll-target="#computational-programming">Computational &amp; Programming</a></li>
   <li><a href="#bioinformatics" id="toc-bioinformatics" class="nav-link" data-scroll-target="#bioinformatics">Bioinformatics</a></li>
+  <li><a href="#biological-interpretation" id="toc-biological-interpretation" class="nav-link" data-scroll-target="#biological-interpretation">Biological Interpretation</a></li>
   <li><a href="#statistics-modelling" id="toc-statistics-modelling" class="nav-link" data-scroll-target="#statistics-modelling">Statistics &amp; Modelling</a></li>
   <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">Languages</a></li>
   </ul>
@@ -211,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 17, 2026</p>
+      <p class="date">May 24, 2026</p>
     </div>
   </div>
   
@@ -276,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie&nbsp;Laure Delignette-Muller, Sophie&nbsp;Martine Prud’homme (2025). Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge. <em>NAR Genomics and Bioinformatics</em>, 7(3). <a href="https://doi.org/10.1093/nargab/lqaf103">DOI</a> · <a href="https://doi.org/10.1101/2024.12.18.627334">Preprint</a> · <a href="https://github.com/ellfran-7/cluefish">GitHub</a></p></li>
 </ul>
 <div class="small text-muted" style="font-size: 0.8em; color: #999; margin-top: 0.5em;">
-<p><em>Publication list automatically retrieved from <a href="https://orcid.org/0000-0002-6614-4109">ORCID</a> and <a href="https://www.crossref.org/">Crossref</a> on mai 17, 2026.</em></p>
+<p><em>Publication list automatically retrieved from <a href="https://orcid.org/0000-0002-6614-4109">ORCID</a> and <a href="https://www.crossref.org/">Crossref</a> on mai 27, 2026.</em></p>
 </div>
 <hr>
 <!-- THIS CODE WAS A START OF EXPLORATION IN FORMATTING THE DYNAMIC PAPER RETRIEVAL TO TYPST --><!-- AS OF NOW, NOT EASY --><!-- ```{r} --><!-- #| echo: false --><!-- #| message: false --><!-- #| warning: false --><!-- #| output: asis --><!-- if (knitr::pandoc_to("typst")) { --><!--   lines <- c() --><!--   for (i in seq_len(nrow(articles))) { --><!--     doi <- get_doi(articles$`external-ids.external-id`[[i]]) --><!--     if (is.na(doi)) next --><!--     meta <- tryCatch(cr_works(dois = doi)$data, error = function(e) NULL) --><!--     if (is.null(meta)) next --><!--     title   <- meta$title --><!--     journal <- meta$container.title --><!--     year    <- suppressWarnings(substr(meta$issued, 1, 4)) --><!--     vol     <- suppressWarnings(if (!is.null(meta$volume) && !is.na(meta$volume)) meta$volume else "") --><!--     iss     <- suppressWarnings(if (!is.null(meta$issue)  && !is.na(meta$issue))  glue("({meta$issue})") else "") --><!--     pages   <- suppressWarnings(if (!is.null(meta$page)   && !is.na(meta$page))   glue(", {meta$page}") else "") --><!--     authors_df <- meta$author[[1]] --><!--     author_strings <- paste(substr(authors_df$given, 1, 1), authors_df$family, sep = ". ") --><!--     author_list <- paste(author_strings, collapse = ", ") --><!--     desc <- glue("{author_list} ({year}). {title}. {journal}, {vol}{iss}{pages}. doi:{doi}") --><!--     lines <- c(lines, glue('#cv-entry(title: "Peer-reviewed articles", description: "{desc}")')) --><!--   } --><!--   lines <- c(lines, --><!--     '#v(1em)', --><!--     '#line(start: (0%, 0%), end: (35%, 0%), stroke: (thickness: 1pt, paint: color-lightest-teal))', --><!--     '#v(4em)' --><!--   ) --><!--   # CRITICAL: \n ensures Pandoc sees these as isolated block-level elements --><!--   cat("\n```{=typst}\n") --><!--   cat(paste(lines, collapse = "\n")) --><!--   cat("\n```\n") --><!-- } --><!-- ``` --></section></section><section id="communications" class="level2"><h2 class="anchored" data-anchor-id="communications">Communications</h2>
@@ -373,9 +374,9 @@ Personal note
 <section id="computational-programming" class="level3"><h3 class="anchored" data-anchor-id="computational-programming">Computational &amp; Programming</h3>
 <ul>
 <li>
-<strong>Languages:</strong> R (advanced), Python (beginner–intermediate), Bash</li>
+<strong>Main languages:</strong> R (advanced), Python (beginner–intermediate), Bash</li>
 <li>
-<strong>Reproducible research:</strong> Quarto, R Markdown, <code>renv</code>, <code>targets</code>, Git · GitHub / GitLab / Codeberg</li>
+<strong>Reproducible research:</strong> Quarto, R Markdown, <code>renv</code>, <code>targets</code>, Git · GitHub / GitLab / Codeberg; strong emphasis on end-to-end reproducibility — from environment management to parameterised, version-controlled reports</li>
 <li>
 <strong>Web &amp; documents:</strong> HTML, CSS, Typst, Markdown</li>
 <li>
@@ -395,6 +396,12 @@ Personal note
 <strong>Network biology:</strong> Protein–protein interaction network construction and visualisation (STRING, Cytoscape); PPIN clustering with multiple algorithms</li>
 <li>
 <strong>Data visualisation:</strong> <code>ggplot2</code>, <code>patchwork</code>; interactive figures with <code>plotly</code>; integrated into reproducible Quarto reports</li>
+</ul></section><section id="biological-interpretation" class="level3"><h3 class="anchored" data-anchor-id="biological-interpretation">Biological Interpretation</h3>
+<ul>
+<li>
+<strong>Functional knowledge:</strong> Fluent in KEGG, GO, WikiPathways, and other sources of annotations; able to navigate and critically interpret enrichment outputs across biological levels (transcript to gene to protein to pathway to process)</li>
+<li>
+<strong>Mechanistic reasoning:</strong> Experience deriving mechanistic hypotheses from omics perturbations — e.g.&nbsp;impaired retinol metabolism under dibutyl phthalate exposure in zebrafish embryos, followed by morphological validation (eye size) (discussed in <a href="https://doi.org/10.1093/nargab/lqaf103">Franklin et al., 2025</a> — bridging molecular signatures to experimentally testable organism-level outcomes</li>
 </ul></section><section id="statistics-modelling" class="level3"><h3 class="anchored" data-anchor-id="statistics-modelling">Statistics &amp; Modelling</h3>
 <ul>
 <li>
