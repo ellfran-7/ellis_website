@@ -23,7 +23,7 @@ format:
   html:
     toc: true
     toc-location: left
-    css: _cv/cv.scss
+    theme: _cv/cv.scss
   typst:
     toc: false
     template-partials:
