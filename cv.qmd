@@ -122,7 +122,7 @@ The project is structured around two main axes. The first produced [cluefish](ht
 
 ![](_cv/cluefish_graphical_abstract_20260407.svg){.lightbox fig-alt="Cluefish graphical abstract" width="50%"}
 
-The second, currently in preparation, extends the DRomics framework to integrate time as an additional variable, enabling characterisation of gene expression patterns jointly modulated by dose and exposure duration, with dedicated visualisation strategies. A paper is currently in the works, and will be submitted this year (2026).
+The second extends the DRomics framework to integrate time as an additional variable, enabling characterisation of gene expression patterns jointly modulated by dose and exposure duration, with dedicated visualisation strategies. A paper is currently in the works, and will soon be submitted.
 
 A transversal concern throughout is generalisability, reproducibility, and accessibility of the developed tools for the broader (eco)toxicology community.
 
@@ -389,29 +389,31 @@ for (i in seq_len(nrow(articles))) {
 
 #### International
 
-- **Ellis Franklin**, Marie-Laure Delignette-Muller, Elise Billoir, Sophie Prud'Homme (2024). *Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data: application to the impact of di-n-butyl phthalate on zebrafish*. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. [HAL](https://hal.science/hal-05282728)
+- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud'homme (2026). *Cluefish: a workflow for comprehensive biological interpretation of transcriptomic data series*. Journées Ouvertes de la Bioinformatique et de la Biostatistique (JOBIM) 2026, Strasbourg, France.
 
-- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud'Homme (2025). *Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge*. 35th Society of Environmental Toxicology and Chemistry (SETAC 2025), Vienna, Austria. [HAL](https://hal.science/hal-05283494)
+- **Ellis Franklin**, Sophie Martine Prud'Homme, Jérémie Ohanessian, Elise Billoir, Marie-Laure Delignette-Muller (2026). *Développement d'une méthode d'analyse intégrative de données transcriptomiques temps-dose-réponse* (ENG: *Development of an integrated analysis method for time-dose-response transcriptomic data*). EcoBIM, Le Havre, France. [HAL](https://hal.science/hal-05633874v1)
 
-- **Ellis Franklin**, Sophie Prud'Homme, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller (2026). *Développement d’une méthode d’analyse intégrative de données transcriptomiques temps-dose-réponse* (ENG : *Development of an integrated analysis method for time-dose-repsonse transcriptomic data*). ECOBIM, Le Havre, France.
+- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud'homme (2025). *Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge*. 35th Society of Environmental Toxicology and Chemistry (SETAC 2025), Vienna, Austria. [HAL](https://hal.science/hal-05283494v1)
+
+- **Ellis Franklin**, Marie-Laure Delignette-Muller, Elise Billoir, Sophie Prud'Homme (2024). *Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data: application to the impact of di-n-butyl phthalate on zebrafish*. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. [HAL](https://hal.science/hal-05282728v1)
 
 #### National
 
-- **Ellis Franklin**, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller, Sophie Prud'Homme (2023). *Chronologie des effets et des réactions face à une exposition à un contaminant : de la réponse moléculaire à apicale*. GDR Ecotox Aqua 2023, Metz, France.
+- **Ellis Franklin**, Sophie Prud'Homme, Jérémie Ohanessian, Elise Billoir, Marie-Laure Delignette-Muller (2025). *Unravelling transcriptomic response dynamics in ecotoxicology*. GDR Ecologie Statistique, Metz, France.
 
-- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud'Homme (2024). *Cluefish: exploration of transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge*. GDR Ecotox Aqua 2024, Grenoble, France.
+- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud'homme (2024). *Cluefish: exploration of transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge*. GDR Ecotoxicologie Aquatique, Grenoble, France.
 
-- **Ellis Franklin**, Sophie Prud'Homme, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller (2025). *Unravelling transcriptomic response dynamics in ecotoxicology*. GDR Ecostat, Metz, France.
+- Jérémie Ohanessian, **Ellis Franklin**, Sophie Martine Prud'homme, Vincent Felten, Marie-Laure Delignette-Muller, Elise Billoir (2023). *Chronologie des effets et des réactions face à une exposition à un contaminant : de la réponse moléculaire à apicale*. GDR Ecotoxicologie Aquatique, Metz, France.
 
 #### Local & Internal
 
-- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud'Homme (2026). *Cluefish: a workflow to make sense of transcriptomic dose-response data in ecotoxicology*. LBBE Internal Seminar, Lyon, France.
+- **Ellis Franklin**, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud'Homme (2026). *Cluefish: a workflow to make sense of transcriptomic dose-response data in ecotoxicology*. LBBE Internal Seminar, Lyon, France.
 
-- **Ellis Franklin** (2025). *Reproducible Research: Every little helps*. LEHNA Seminar, Lyon, France. [Slides](https://ellfran-7.github.io/repro-research-presentation/) · [GitHub](https://github.com/ellfran-7/repro-research-presentation)
+- **Ellis Franklin** (2026). *Reproducible Research: Every little helps*. LEHNA Seminar, Lyon, France. [Slides](https://ellfran-7.github.io/repro-research-presentation/) · [GitHub](https://github.com/ellfran-7/repro-research-presentation)
 
 ### Posters
 
-- **Ellis Franklin**, Elise Billoir, Marie Laure Delignette-Muller, Sophie Prud'Homme (2024). *From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish (Danio rerio) to di-n-butyl phthalate (DBP)*. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. [HAL](https://hal.science/hal-05282671)
+- **Ellis Franklin**, Elise Billoir, Marie Laure Delignette-Muller, Sophie M Prud'Homme (2024). *From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish (Danio rerio) to di-n-butyl phthalate (DBP)*. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. [HAL](https://hal.science/hal-05282671v1)
 
 
 ---
@@ -425,30 +427,31 @@ for (i in seq_len(nrow(articles))) {
 #cv-entry(
   title: "Oral — International",
   description: [
-    *E. Franklin* et al. (2024). _Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data_. PRIMO22, Nantes, France. #link("https://hal.science/hal-05282728")[HAL] \
-    *E. Franklin* et al. (2025). _Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge_. SETAC Europe, Vienna, Austria. #link("https://hal.science/hal-05283494")[HAL] \
-    *E. Franklin* et al. (2026). _Développement d’une méthode d’analyse intégrative de données transcriptomiques temps-dose-réponse_ (ENG: _Development of an integrated analysis method for time-dose-repsonse transcriptomic data_). ECOBIM, Le Havre, France.
+    *E. Franklin* et al. (2026). _Cluefish: a workflow for comprehensive biological interpretation of transcriptomic data series_. JOBIM 2026, Strasbourg, France. \
+    *E. Franklin* et al. (2026). _Développement d'une méthode d'analyse intégrative de données transcriptomiques temps-dose-réponse_ (ENG: _Development of an integrated analysis method for time-dose-response transcriptomic data_). EcoBIM, Le Havre, France. #link("https://hal.science/hal-05633874v1")[HAL] \
+    *E. Franklin* et al. (2025). _Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge_. SETAC Europe, Vienna, Austria. #link("https://hal.science/hal-05283494v1")[HAL] \
+    *E. Franklin* et al. (2024). _Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data_. PRIMO22, Nantes, France. #link("https://hal.science/hal-05282728v1")[HAL]
   ]
 )
 #cv-entry(
   title: "Oral — National",
   description: [
-    *E. Franklin* et al. (2023). _Chronologie des effets et des réactions face à une exposition à un contaminant_. GDR Ecotox Aqua 2023, Metz, France. \
+    *E. Franklin* et al. (2025). _Unravelling transcriptomic response dynamics in ecotoxicology_. GDR Ecostat, Metz, France. \
     *E. Franklin* et al. (2024). _Cluefish: exploration of transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge_. GDR Ecotox Aqua 2024, Grenoble, France. \
-    *E. Franklin* et al. (2025). _Unravelling transcriptomic response dynamics in ecotoxicology_. GDR Ecostat, Metz, France.
+    J. Ohanessian, *E. Franklin* et al. (2023). _Chronologie des effets et des réactions face à une exposition à un contaminant_. GDR Ecotox Aqua 2023, Metz, France.
   ]
 )
 #cv-entry(
   title: "Oral — Local & Internal",
   description: [
     *E. Franklin* et al. (2026). _Cluefish: a workflow to make sense of transcriptomic dose-response data in ecotoxicology_. LBBE Internal Seminar, Lyon, France. \
-    *E. Franklin* (2025). _Reproducible Research: Every little helps_. LEHNA Seminar, Lyon, France. #link("https://ellfran-7.github.io/repro-research-presentation/")[Slides] · #link("https://github.com/ellfran-7/repro-research-presentation")[GitHub]
+    *E. Franklin* (2026). _Reproducible Research: Every little helps_. LEHNA Seminar, Lyon, France. #link("https://ellfran-7.github.io/repro-research-presentation/")[Slides] · #link("https://github.com/ellfran-7/repro-research-presentation")[GitHub]
   ]
 )
 #cv-entry(
   title: "Posters",
   description: [
-    *E. Franklin* et al. (2024). _From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish to DBP_. PRIMO22, Nantes, France. #link("https://hal.science/hal-05282671")[HAL]
+    *E. Franklin* et al. (2024). _From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish to DBP_. PRIMO22, Nantes, France. #link("https://hal.science/hal-05282671v1")[HAL]
   ]
 )
 #v(1em)
@@ -457,6 +460,7 @@ for (i in seq_len(nrow(articles))) {
 ```
 
 :::
+
 
 
 ## Awards
