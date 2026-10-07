@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.36">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="dcterms.date" content="2026-05-27">
+<meta name="dcterms.date" content="2026-10-07">
 <title>Curriculum Vitae – Home</title>
 <style>
 code{white-space: pre-wrap;}
@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 27, 2026</p>
+      <p class="date">October 7, 2026</p>
     </div>
   </div>
   
@@ -252,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This thesis sits at the interface of ecotoxicology and bioinformatics – broadly ecotoxicogenomics — developing methodological approaches for the analysis and interpretation of transcriptomic data modulated by two key variables: contaminant dose and exposure time. Work spans both a model organism (<em>Danio rerio</em>) and a non-model organism (<em>Daphnia magna</em>), the latter presenting specific challenges in genome annotation completeness and biological database coverage.</p>
 <p>The project is structured around two main axes. The first produced <a href="https://github.com/ellfran-7/cluefish">cluefish</a> — a workflow for structured biological interpretation of dose-response transcriptomic results, improving exploration of deregulated genes and their associated biological functions (<a href="https://doi.org/10.1093/nargab/lqaf103">Franklin et al., 2025</a>).</p>
 <p><a href="_cv/cluefish_graphical_abstract_20260407.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="_cv/cluefish_graphical_abstract_20260407.svg" class="img-fluid" style="width:50.0%" alt="Cluefish graphical abstract"></a></p>
-<p>The second, currently in preparation, extends the DRomics framework to integrate time as an additional variable, enabling characterisation of gene expression patterns jointly modulated by dose and exposure duration, with dedicated visualisation strategies. A paper is currently in the works, and will be submitted this year (2026).</p>
+<p>The second extends the DRomics framework to integrate time as an additional variable, enabling characterisation of gene expression patterns jointly modulated by dose and exposure duration, with dedicated visualisation strategies. A paper is currently in the works, and will soon be submitted.</p>
 <p>A transversal concern throughout is generalisability, reproducibility, and accessibility of the developed tools for the broader (eco)toxicology community.</p>
 <p>For more info on my thesis, check <a href="https://theses.fr/s370682">here</a>.</p>
 <p><span class="smallbreak"></span></p>
@@ -276,29 +276,30 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie&nbsp;Laure Delignette-Muller, Sophie&nbsp;Martine Prud’homme (2025). Cluefish: mining the dark matter of transcriptional data series with over-representation analysis enhanced by aggregated biological prior knowledge. <em>NAR Genomics and Bioinformatics</em>, 7(3). <a href="https://doi.org/10.1093/nargab/lqaf103">DOI</a> · <a href="https://doi.org/10.1101/2024.12.18.627334">Preprint</a> · <a href="https://github.com/ellfran-7/cluefish">GitHub</a></p></li>
 </ul>
 <div class="small text-muted" style="font-size: 0.8em; color: #999; margin-top: 0.5em;">
-<p><em>Publication list automatically retrieved from <a href="https://orcid.org/0000-0002-6614-4109">ORCID</a> and <a href="https://www.crossref.org/">Crossref</a> on mai 27, 2026.</em></p>
+<p><em>Publication list automatically retrieved from <a href="https://orcid.org/0000-0002-6614-4109">ORCID</a> and <a href="https://www.crossref.org/">Crossref</a> on octobre 07, 2026.</em></p>
 </div>
 <hr>
 <!-- THIS CODE WAS A START OF EXPLORATION IN FORMATTING THE DYNAMIC PAPER RETRIEVAL TO TYPST --><!-- AS OF NOW, NOT EASY --><!-- ```{r} --><!-- #| echo: false --><!-- #| message: false --><!-- #| warning: false --><!-- #| output: asis --><!-- if (knitr::pandoc_to("typst")) { --><!--   lines <- c() --><!--   for (i in seq_len(nrow(articles))) { --><!--     doi <- get_doi(articles$`external-ids.external-id`[[i]]) --><!--     if (is.na(doi)) next --><!--     meta <- tryCatch(cr_works(dois = doi)$data, error = function(e) NULL) --><!--     if (is.null(meta)) next --><!--     title   <- meta$title --><!--     journal <- meta$container.title --><!--     year    <- suppressWarnings(substr(meta$issued, 1, 4)) --><!--     vol     <- suppressWarnings(if (!is.null(meta$volume) && !is.na(meta$volume)) meta$volume else "") --><!--     iss     <- suppressWarnings(if (!is.null(meta$issue)  && !is.na(meta$issue))  glue("({meta$issue})") else "") --><!--     pages   <- suppressWarnings(if (!is.null(meta$page)   && !is.na(meta$page))   glue(", {meta$page}") else "") --><!--     authors_df <- meta$author[[1]] --><!--     author_strings <- paste(substr(authors_df$given, 1, 1), authors_df$family, sep = ". ") --><!--     author_list <- paste(author_strings, collapse = ", ") --><!--     desc <- glue("{author_list} ({year}). {title}. {journal}, {vol}{iss}{pages}. doi:{doi}") --><!--     lines <- c(lines, glue('#cv-entry(title: "Peer-reviewed articles", description: "{desc}")')) --><!--   } --><!--   lines <- c(lines, --><!--     '#v(1em)', --><!--     '#line(start: (0%, 0%), end: (35%, 0%), stroke: (thickness: 1pt, paint: color-lightest-teal))', --><!--     '#v(4em)' --><!--   ) --><!--   # CRITICAL: \n ensures Pandoc sees these as isolated block-level elements --><!--   cat("\n```{=typst}\n") --><!--   cat(paste(lines, collapse = "\n")) --><!--   cat("\n```\n") --><!-- } --><!-- ``` --></section></section><section id="communications" class="level2"><h2 class="anchored" data-anchor-id="communications">Communications</h2>
 <section id="oral-presentations" class="level3"><h3 class="anchored" data-anchor-id="oral-presentations">Oral Presentations</h3>
 <section id="international" class="level4"><h4 class="anchored" data-anchor-id="international">International</h4>
 <ul>
-<li><p><strong>Ellis Franklin</strong>, Marie-Laure Delignette-Muller, Elise Billoir, Sophie Prud’Homme (2024). <em>Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data: application to the impact of di-n-butyl phthalate on zebrafish</em>. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. <a href="https://hal.science/hal-05282728">HAL</a></p></li>
-<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud’Homme (2025). <em>Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge</em>. 35th Society of Environmental Toxicology and Chemistry (SETAC 2025), Vienna, Austria. <a href="https://hal.science/hal-05283494">HAL</a></p></li>
-<li><p><strong>Ellis Franklin</strong>, Sophie Prud’Homme, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller (2026). <em>Développement d’une méthode d’analyse intégrative de données transcriptomiques temps-dose-réponse</em> (ENG : <em>Development of an integrated analysis method for time-dose-repsonse transcriptomic data</em>). ECOBIM, Le Havre, France.</p></li>
+<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud’homme (2026). <em>Cluefish: a workflow for comprehensive biological interpretation of transcriptomic data series</em>. Journées Ouvertes de la Bioinformatique et de la Biostatistique (JOBIM) 2026, Strasbourg, France.</p></li>
+<li><p><strong>Ellis Franklin</strong>, Sophie Martine Prud’Homme, Jérémie Ohanessian, Elise Billoir, Marie-Laure Delignette-Muller (2026). <em>Développement d’une méthode d’analyse intégrative de données transcriptomiques temps-dose-réponse</em> (ENG: <em>Development of an integrated analysis method for time-dose-response transcriptomic data</em>). EcoBIM, Le Havre, France. <a href="https://hal.science/hal-05633874v1">HAL</a></p></li>
+<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud’homme (2025). <em>Exploring transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge</em>. 35th Society of Environmental Toxicology and Chemistry (SETAC 2025), Vienna, Austria. <a href="https://hal.science/hal-05283494v1">HAL</a></p></li>
+<li><p><strong>Ellis Franklin</strong>, Marie-Laure Delignette-Muller, Elise Billoir, Sophie Prud’Homme (2024). <em>Interests and constraints towards unravelling endocrine disruptors mechanisms using dose-response transcriptomic data: application to the impact of di-n-butyl phthalate on zebrafish</em>. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. <a href="https://hal.science/hal-05282728v1">HAL</a></p></li>
 </ul></section><section id="national" class="level4"><h4 class="anchored" data-anchor-id="national">National</h4>
 <ul>
-<li><p><strong>Ellis Franklin</strong>, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller, Sophie Prud’Homme (2023). <em>Chronologie des effets et des réactions face à une exposition à un contaminant : de la réponse moléculaire à apicale</em>. GDR Ecotox Aqua 2023, Metz, France.</p></li>
-<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud’Homme (2024). <em>Cluefish: exploration of transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge</em>. GDR Ecotox Aqua 2024, Grenoble, France.</p></li>
-<li><p><strong>Ellis Franklin</strong>, Sophie Prud’Homme, Jérémie Ohanessian, Elise Billoir, Marie Laure Delignette-Muller (2025). <em>Unravelling transcriptomic response dynamics in ecotoxicology</em>. GDR Ecostat, Metz, France.</p></li>
+<li><p><strong>Ellis Franklin</strong>, Sophie Prud’Homme, Jérémie Ohanessian, Elise Billoir, Marie-Laure Delignette-Muller (2025). <em>Unravelling transcriptomic response dynamics in ecotoxicology</em>. GDR Ecologie Statistique, Metz, France.</p></li>
+<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud’homme (2024). <em>Cluefish: exploration of transcriptomic data with over-representation analysis enhanced by aggregated biological prior knowledge</em>. GDR Ecotoxicologie Aquatique, Grenoble, France.</p></li>
+<li><p>Jérémie Ohanessian, <strong>Ellis Franklin</strong>, Sophie Martine Prud’homme, Vincent Felten, Marie-Laure Delignette-Muller, Elise Billoir (2023). <em>Chronologie des effets et des réactions face à une exposition à un contaminant : de la réponse moléculaire à apicale</em>. GDR Ecotoxicologie Aquatique, Metz, France.</p></li>
 </ul></section><section id="local-internal" class="level4"><h4 class="anchored" data-anchor-id="local-internal">Local &amp; Internal</h4>
 <ul>
-<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Prud’Homme (2026). <em>Cluefish: a workflow to make sense of transcriptomic dose-response data in ecotoxicology</em>. LBBE Internal Seminar, Lyon, France.</p></li>
-<li><p><strong>Ellis Franklin</strong> (2025). <em>Reproducible Research: Every little helps</em>. LEHNA Seminar, Lyon, France. <a href="https://ellfran-7.github.io/repro-research-presentation/">Slides</a> · <a href="https://github.com/ellfran-7/repro-research-presentation">GitHub</a></p></li>
+<li><p><strong>Ellis Franklin</strong>, Elise Billoir, Philippe Veber, Jérémie Ohanessian, Marie Laure Delignette-Muller, Sophie Martine Prud’Homme (2026). <em>Cluefish: a workflow to make sense of transcriptomic dose-response data in ecotoxicology</em>. LBBE Internal Seminar, Lyon, France.</p></li>
+<li><p><strong>Ellis Franklin</strong> (2026). <em>Reproducible Research: Every little helps</em>. LEHNA Seminar, Lyon, France. <a href="https://ellfran-7.github.io/repro-research-presentation/">Slides</a> · <a href="https://github.com/ellfran-7/repro-research-presentation">GitHub</a></p></li>
 </ul></section></section><section id="posters" class="level3"><h3 class="anchored" data-anchor-id="posters">Posters</h3>
 <ul>
 <li>
-<strong>Ellis Franklin</strong>, Elise Billoir, Marie Laure Delignette-Muller, Sophie Prud’Homme (2024). <em>From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish (Danio rerio) to di-n-butyl phthalate (DBP)</em>. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. <a href="https://hal.science/hal-05282671">HAL</a>
+<strong>Ellis Franklin</strong>, Elise Billoir, Marie Laure Delignette-Muller, Sophie M Prud’Homme (2024). <em>From dose-response modelling of transcriptomic data to biological interpretation: an application to embryonic exposure of zebrafish (Danio rerio) to di-n-butyl phthalate (DBP)</em>. 22nd Pollutant Responses in Marine Organisms (PRIMO22), Nantes, France. <a href="https://hal.science/hal-05282671v1">HAL</a>
 </li>
 </ul>
 <hr></section></section><section id="awards" class="level2"><h2 class="anchored" data-anchor-id="awards">Awards</h2>
